@@ -527,11 +527,23 @@
   .relative {
     position: relative;
   }
+  .m-\[5px\] {
+    margin: 5px;
+  }
+  .m-\[10px\] {
+    margin: 10px;
+  }
+  .m-\[50px\] {
+    margin: 50px;
+  }
   .m-px {
     margin: 1px;
   }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-\[5px\] {
+    margin-top: 5px;
   }
   .mt-\[10px\] {
     margin-top: 10px;
@@ -541,6 +553,9 @@
   }
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
+  }
+  .mr-\[20px\] {
+    margin-right: 20px;
   }
   .mb-\[-40px\] {
     margin-bottom: -40px;
@@ -554,11 +569,26 @@
   .ml-50 {
     margin-left: calc(var(--spacing) * 50);
   }
+  .ml-\[-0px\] {
+    margin-left: -0px;
+  }
   .ml-\[-30px\] {
     margin-left: -30px;
   }
+  .ml-\[-45px\] {
+    margin-left: -45px;
+  }
+  .ml-\[-60px\] {
+    margin-left: -60px;
+  }
   .ml-\[10px\] {
     margin-left: 10px;
+  }
+  .ml-\[20px\] {
+    margin-left: 20px;
+  }
+  .ml-\[50px\] {
+    margin-left: 50px;
   }
   .block {
     display: block;
@@ -584,6 +614,9 @@
   .h-\[35px\] {
     height: 35px;
   }
+  .h-\[40px\] {
+    height: 40px;
+  }
   .h-\[45px\] {
     height: 45px;
   }
@@ -596,8 +629,14 @@
   .h-\[80\] {
     height: 80;
   }
+  .h-\[100\] {
+    height: 100;
+  }
   .h-\[110\] {
     height: 110;
+  }
+  .h-\[110px\] {
+    height: 110px;
   }
   .h-\[255px\] {
     height: 255px;
@@ -613,6 +652,18 @@
   }
   .h-\[417px\] {
     height: 417px;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[510\] {
+    height: 510;
+  }
+  .h-\[510px\] {
+    height: 510px;
+  }
+  .w-\[2px\] {
+    width: 2px;
   }
   .w-\[15px\] {
     width: 15px;
@@ -635,6 +686,9 @@
   .w-\[166px\] {
     width: 166px;
   }
+  .w-\[200px\] {
+    width: 200px;
+  }
   .w-\[222px\] {
     width: 222px;
   }
@@ -644,11 +698,17 @@
   .w-\[290px\] {
     width: 290px;
   }
+  .w-\[330px\] {
+    width: 330px;
+  }
   .w-\[331px\] {
     width: 331px;
   }
   .w-\[333px\] {
     width: 333px;
+  }
+  .w-\[340px\] {
+    width: 340px;
   }
   .w-full {
     width: 100%;
@@ -721,6 +781,9 @@
   .bg-\[rgb\(255\,255\,255\,0\.3\)\] {
     background-color: rgb(255,255,255,0.3);
   }
+  .bg-\[rgb\(255\,255\,255\,03\)\] {
+    background-color: rgb(255,255,255,03);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -739,6 +802,12 @@
   .px-\[5px\] {
     padding-inline: 5px;
   }
+  .px-\[10px\] {
+    padding-inline: 10px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -747,6 +816,9 @@
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-\[30px\] {
+    padding-block: 30px;
   }
   .text-center {
     text-align: center;
@@ -823,6 +895,13 @@
   .duration-900 {
     --tw-duration: 900ms;
     transition-duration: 900ms;
+  }
+  .hover\:hidden {
+    &:hover {
+      @media (hover: hover) {
+        display: none;
+      }
+    }
   }
   .hover\:scale-110 {
     &:hover {
