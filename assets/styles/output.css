@@ -13,6 +13,8 @@
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
+    --font-weight-black: 900;
+    --leading-tight: 1.25;
     --default-font-family: var(--font-sans);
     --default-font-feature-settings: var(--font-sans--font-feature-settings);
     --default-font-variation-settings: var(
@@ -319,6 +321,9 @@
   .w-\[222px\] {
     width: 222px;
   }
+  .w-\[245px\] {
+    width: 245px;
+  }
   .w-\[260px\] {
     width: 260px;
   }
@@ -416,6 +421,12 @@
   .text-\[10px\] {
     font-size: 10px;
   }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[13px\] {
+    font-size: 13px;
+  }
   .text-\[15px\] {
     font-size: 15px;
   }
@@ -430,6 +441,14 @@
   }
   .text-\[48px\] {
     font-size: 48px;
+  }
+  .leading-tight {
+    --tw-leading: var(--leading-tight);
+    line-height: var(--leading-tight);
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -450,6 +469,12 @@
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
+  }
+  .whitespace-break-spaces {
+    white-space: break-spaces;
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
   .text-\[\#6BFF97\] {
     color: #6BFF97;
@@ -479,6 +504,10 @@
   .duration-700 {
     --tw-duration: 700ms;
     transition-duration: 700ms;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
   }
   .hover\:scale-110 {
     &:hover {
@@ -527,6 +556,10 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-font-weight {
   syntax: "*";
