@@ -4,3 +4,8 @@
 @layer components;
 @layer utilities;
 
+@media (max-width: 700px) {
+    .size-mobile {
+        display: none;
+    }
+}
