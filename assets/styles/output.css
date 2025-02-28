@@ -1000,6 +1000,11 @@
       font-size: 16px;
     }
   }
+  .lg\:text-\[48px\] {
+    @media (width >= 64rem) {
+      font-size: 48px;
+    }
+  }
   .lg\:text-\[70px\] {
     @media (width >= 64rem) {
       font-size: 70px;
