@@ -216,9 +216,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-\[10px\] {
     height: 10px;
   }
@@ -285,9 +282,6 @@
   .h-\[700px\] {
     height: 700px;
   }
-  .h-\[900px\] {
-    height: 900px;
-  }
   .h-\[1000px\] {
     height: 1000px;
   }
@@ -296,9 +290,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-300 {
-    width: calc(var(--spacing) * 300);
   }
   .w-\[30px\] {
     width: 30px;
@@ -327,9 +318,6 @@
   .w-\[140px\] {
     width: 140px;
   }
-  .w-\[150px\] {
-    width: 150px;
-  }
   .w-\[200px\] {
     width: 200px;
   }
@@ -357,12 +345,6 @@
   .w-auto {
     width: auto;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .resize-none {
     resize: none;
   }
@@ -374,9 +356,6 @@
   }
   .items-center {
     align-items: center;
-  }
-  .items-start {
-    align-items: flex-start;
   }
   .justify-between {
     justify-content: space-between;
@@ -417,14 +396,8 @@
   .bg-\[\#3233232\] {
     background-color: #3233232;
   }
-  .bg-amber-50 {
-    background-color: var(--color-amber-50);
-  }
   .bg-transparent {
     background-color: transparent;
-  }
-  .bg-white {
-    background-color: var(--color-white);
   }
   .bg-white\/30 {
     background-color: color-mix(in srgb, #fff 30%, transparent);
@@ -444,9 +417,6 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-\[4px\] {
-    font-size: 4px;
   }
   .text-\[12px\] {
     font-size: 12px;
@@ -478,9 +448,6 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
-  .text-\[\#323232\] {
-    color: #323232;
-  }
   .text-\[\#AAAAAA\] {
     color: #AAAAAA;
   }
@@ -492,13 +459,6 @@
   }
   .uppercase {
     text-transform: uppercase;
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .outline-none {
     --tw-outline-style: none;
@@ -533,11 +493,6 @@ body {
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-shadow {
   syntax: "*";
@@ -609,7 +564,6 @@ body {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
